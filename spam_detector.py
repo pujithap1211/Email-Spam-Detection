@@ -33,7 +33,7 @@ except FileNotFoundError:
     st.stop()
 
 st.title("Email Spam Classifier")
-st.write("The app is running. Please enter a message below.")
+st.write("Enter an email to detect spam or not spam.")
 
 input = st.text_area("Enter the message")
 if st.button("Predict"):
